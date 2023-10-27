@@ -1,0 +1,99 @@
+body {
+    font-family: "Space Grotesk"; /* js pr changer la police*/ 
+    background-color: rgb(80, 80, 80);
+    background: url(bg2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    font-weight: bold;
+}
+
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    z-index: 100;
+}
+
+#img1 {
+    position: relative;
+    width: 20%;
+    border-radius: 10%;
+}
+
+
+.navbar {
+    position: relative; 
+}
+
+.nav-list {
+    list-style-type: none; 
+    display: flex;
+}
+
+.nav-list li {
+    color: rgb(46, 112, 255); 
+    margin-right: 32px; 
+}
+
+
+a:visited { 
+    text-decoration: none; 
+    color: rgb(46, 112, 255); 
+   }
+
+a:hover {
+    color: rgb(16, 86, 238);
+}
+
+
+.card {
+    
+    position: relative;
+    top: 280px;
+    text-align: center;
+    margin: 10px auto;
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #02285e54;
+    border: 1px solid rgba(2, 40, 94, 0.116);
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.card:nth-child(2) {
+    
+    top:580px;
+    background-color: #02285ea8;
+}
+
+.card:nth-child(3) {
+    top:880px;
+    background-color: #02285ec2;
+}
+
+.card:nth-child(4) {
+    top:1180px;
+    background-color: #02285ed5;
+}
+
+.card:nth-child(5) {
+    top:1480px;
+    background-color: #02285ed8;
+    visibility: hidden;
+}

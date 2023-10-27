@@ -1,0 +1,46 @@
+/*@media (faites pas attention)*/
+
+body {
+    font-family: "Space Mono"; /* un js pr changer la police (un jour)*/ 
+    background-color: rgb(80, 80, 80);
+
+    background: url(1033561.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+
+#profile_pics{
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
+}
+
+#profile_pics:hover{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    
+}
+
+#prompt1 {
+    font-family: "Space Grotesk"; 
+    color: rgb(192, 0, 0);
+    width: 30%;
+    height: auto;
+
+}
+
+.d-none {
+    display: none;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: rgb(192, 0, 0); 
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
