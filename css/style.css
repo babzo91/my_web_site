@@ -1,13 +1,15 @@
 /*@media (faites pas attention)*/
 
+@import url(components/pages/style2.css);
+
 body {
-    font-family: "Space Mono"; /* un js pr changer la police (un jour)*/ 
+    font-family: "Space Mono"; /* un js pr changer la police (un jour)*/
     background-color: rgb(80, 80, 80);
 
-    background: url(1033561.jpg);
+    background: url(../images/background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -21,11 +23,11 @@ body {
 #profile_pics:hover{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-    
+
 }
 
 #prompt1 {
-    font-family: "Space Grotesk"; 
+    font-family: "Space Grotesk";
     color: rgb(192, 0, 0);
     width: 30%;
     height: auto;
@@ -36,9 +38,9 @@ body {
     display: none;
 }
 
-a:visited { 
-    text-decoration: none; 
-    color: rgb(192, 0, 0); 
+a:visited {
+    text-decoration: none;
+    color: rgb(192, 0, 0);
 }
 
 a:hover {
